@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My services</title>
+	<style>
+	*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;	
+}
+nav{
+	background:lightgrey;
+	height: 100px;
+	width: 100%;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color:grey;
+	font-size: 17px;
+	padding: 15px 7px;
+	border-radius: 3px;
+	text-transform: none;
+}
+a.active,a:hover{
+	background:none;
+	text-decoration: none;
+	color:white; 
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right:40px; 
+	cursor: pointer;
+	display:none;	
+}
+#check{
+	display: none;
+}
+h1{
+	margin: 10px;
+}
+
+@media(max-width: 952px){
+	label.logo{
+	  display:flex;
+	}
+	nav ul li a{
+	display:none;
+	}
+  
+  }
+
+</style>
+</head>
+<body style="background-color: white;">
+
+<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+		<i class="fas fa-bars"></i>	
+		</label>
+		<label class="logo"><a href="menu.html"><span style="color: black">P</span><span style="color: tomato"><b>.folio</b>
+		</span></a></label>
+		<i class="fas fa-bars"></i>
+		<ul>
+		<li><a  href="index.html"><b>Home</b></a></li>
+	    <li><a href="work 4.html"><b>About</b></a></li>
+	    <li><a class="active" href="service.html"><b>Service</b></a></li>
+	    <li><a href="register.html"><b>Register</b></a></li>
+	    <li><a href="login.html"><b>Log in</b></a></li>
+	    <li><a href="address.html"><b>Contact<b></a></li>
+
+	</ul>
+	</nav>
+<h1 style="text-align: center; color: grey;">We Train Aspired/Young Females that are willing to develop Nigeria<br> And make the Nation proud by giving rise to poverty free continent. <br>Here are some services we render:<!-- In Writing, Programing languages,Graphics, Digital literacy  Among others. --></h1> 
+<ul style="list-style-type:circle; color: grey; padding-left: 40px; font-size: 20px; margin: 40px;">
+  <li>1.In Writing</li>
+  <li>2.Programming Languages</li>
+  <li>3.Graphics</li>
+  <li>4.Digital Literacy</li>
+  <li>5.Product Design</li>
+</ul>    
+
+</body>
+</html>

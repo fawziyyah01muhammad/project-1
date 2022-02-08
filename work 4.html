@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+nav{
+    background:lightgrey;
+    height: 100px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:grey;
+    font-size: 17px;
+    padding: 15px 7px;
+    border-radius: 3px;
+    text-transform: none;
+}
+a.active,a:hover{
+    background:none;
+    text-decoration: none;
+    color:white; 
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right:40px; 
+    cursor: pointer;
+    display:none;   
+}
+#check{
+    display: none;
+}
+
+@media(max-width: 952px){
+	label.logo{
+	  display:flex;
+	}
+	nav ul li a{
+	display:none;
+	}
+  
+  }
+header {
+    background-color:gray;
+    color:white;
+    text-align:center;
+    padding:5px;
+    margin: 5px;	
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    background-color:grey;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:0px;
+    margin-top: 5px;	 	 
+}
+</style>
+</head>
+<body>
+<nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i> 
+        </label>
+        <label class="logo"><a href="menu.html"><span style="color: black">P</span><span style="color: tomato">
+            <b>.folio</b></span></a></label>
+        <i class="fas fa-bars"></i>
+        <ul>
+        <li><a  href="nav bar.html"><b>Home</b></a></li>
+        <li><a class="active" href="work 4.html"><b>About</b></a></li>
+        <li><a href="service.html"><b>Service</b></a></li>
+        <li><a href="register.html"><b>Register</b></a></li>
+        <li><a href="login.html"><b>Log in</b></a></li>
+        <li><a href="address.html"><b>Contact<b></a></li>
+
+    </ul>
+    </nav>
+
+
+<header>
+<h1>ABOUT FAWZIYYAH</h1>
+</header>
+<center>
+<img src="Ziyyah baby.jpg" alt="Ziyyah baby.com" width="350px" height="400px">
+</center>
+<div style="background-color:gray; color:white;">
+    <h1 style="text-align: center;">Fawziyyah Muhammad</h1>
+<p style="text-align: center;">My name is Fawziyyah Muhammad, I am 17 years old and am the 4th child of my family.<br>
+     I am a beautiful, tall, slim and brown skin ebira girl from Kogi State.<br>
+     I live in Opposit Ikon Alla Plaza located in Minna Niger State.<br>My best food is Fried rice and peppe chicken <br>
+     I love reading my books and reading novels is my hobby.</p>
+    <h1 style="text-align: center;">EDUCATION</h1>
+    <P style="text-align: center;">The name of my school is Hill Top Model school,<br> It is located in Maitumbi Minna Niger State.
+        <br>It is painted in blue and white colors and surrounded wiyh beautiful flowes.<br>
+        I love my school because there are well qualified teachers in the school.<br>
+        My dream is to become a successful Medical Doctor.
+        </P>
+    </div>
+
+<footer>
+<div style="background-color:grey; color:white;">
+    Copyright@fauziyyam986.com
+</footer>
+
+</body>
+</html>
